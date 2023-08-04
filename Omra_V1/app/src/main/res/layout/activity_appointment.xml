@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background_4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="match_parent"
+            android:layout_height="137dp"
+            app:srcCompat="@drawable/finallogo" />
+
+
+        <TextView
+            android:id="@+id/onlineMed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Online Medical Resources Access "
+            android:textAlignment="center"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/onlineMed1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="(OMRA)"
+            android:textAlignment="center"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/fillView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:text="Dear, "
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/emailView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="email address"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/formView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:text="Enter the following details for your appointment"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="100dp"
+            android:background="@drawable/custom_login_button"
+            android:shadowColor="@color/black"
+            android:text="Back"
+            android:textAllCaps="false" />
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_login_button"
+            android:shadowColor="@color/black"
+            android:text="Submit"
+            android:textAllCaps="false" />
+
+        </LinearLayout>
+
+
+
+        <Button
+            android:id="@+id/logout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginRight="100dp"
+            android:background="@drawable/custom_register_button"
+            android:shadowColor="@color/black"
+            android:text="Logout"
+            android:textAllCaps="false" />
+
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

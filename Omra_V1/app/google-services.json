@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "661783343962",
+    "project_id": "omra1-e27c8",
+    "storage_bucket": "omra1-e27c8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:661783343962:android:27737e465637282dfb3963",
+        "android_client_info": {
+          "package_name": "com.example.omra"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "661783343962-pcmfi2akiaos9te7meq4ci6vcir8j65e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAD04N60jSXFEU3r8U5njBPmyRgmLzUXXk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "661783343962-pcmfi2akiaos9te7meq4ci6vcir8j65e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
