@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background_4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="match_parent"
+            android:layout_height="137dp"
+            app:srcCompat="@drawable/finallogo" />
+
+
+
+        <TextView
+            android:id="@+id/welcome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Welcome to "
+            android:textAlignment="center"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/onlineMed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Online Medical Resources Access "
+            android:textAlignment="center"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/onlineMed1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="(OMRA)"
+            android:textAlignment="center"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/service1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Please select a service"
+            android:textAlignment="center"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/appointmentImg"
+            android:layout_width="match_parent"
+            android:layout_height="101dp"
+            android:scaleType="centerCrop"
+            android:contentDescription="Schedule your Appointment"
+            app:srcCompat="@drawable/appointment" />
+
+        <TextView
+            android:id="@+id/sAppointmentView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Schedule your Appointment"
+            android:textColor="#0E0E0E"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="168dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/orderMedImg"
+                android:layout_width="168dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:contentDescription="Order Medication"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/medicine" />
+
+            <ImageButton
+                android:id="@+id/emergencyImg"
+                android:layout_width="191dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="10dp"
+                android:contentDescription="Call Emergency"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/emergency" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/orderMeds"
+                android:layout_width="169dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:text="Order Medication" />
+
+            <TextView
+                android:id="@+id/callEmergency"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginLeft="50dp"
+                android:layout_width="169dp"
+                android:layout_height="wrap_content"
+                android:text="Call Emergency" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/logout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginRight="100dp"
+            android:background="@drawable/custom_register_button"
+            android:shadowColor="@color/black"
+            android:text="Logout"
+            android:textAllCaps="false" />
+
+        <TextView
+            android:id="@+id/service"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
